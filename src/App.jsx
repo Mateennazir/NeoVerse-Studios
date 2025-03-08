@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import FeatureSection from "./Components/FeatureSection";
 import Workflow from "./Components/Workflow";
+import Pricing from "./Components/Pricing";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
         <HeroSection />
         <FeatureSection />
         <Workflow />
+        <Pricing />
       </div>
     </>
   );
